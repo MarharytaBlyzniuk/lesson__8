@@ -1,0 +1,133 @@
+.container {
+    display: grid;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.box {
+    display: grid;
+    background: bisque;
+    border: 2px solid dimgrey;
+    padding: 10px;
+}
+
+.box1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    gap: 10px;
+}
+
+.box1--1 {
+    border: 2px solid black;
+    background: lightyellow;
+    justify-content: left;
+    grid-column: 1/1;
+}
+
+.box1--2 {
+    border: 2px solid black;
+    background: lightyellow;
+    justify-content: right;
+    grid-column: 5/5;
+}
+
+.box2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    gap: 10px;
+}
+
+.box2--1 {
+    border: 2px solid black;
+    background: lightyellow;
+    justify-content: left;
+    grid-column: 1/1;
+}
+
+.box2--2 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 3/3;
+}
+
+.box2--3 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 4/4;
+}
+
+.box2--4 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 5/5;
+}
+
+.box3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    gap: 10px;
+}
+
+.box3--1 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 1/1;
+}
+
+.box3--2 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 2/2;
+}
+
+.box3--3 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 4/4;
+}
+
+.box3--4 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 5/5;
+}
+
+.box4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px;
+    justify-content: right;
+    gap: 10px;
+}
+
+.box4--1 {
+    grid-row: span 2;
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 4/4;
+}
+
+.box4--2, .box4--3 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 5/5;
+}
+
+
+.box5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px;
+    gap: 10px;
+}
+
+.box5--1 {
+    grid-row: span 2;
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 3/3;
+}
+
+.box5--2, .box5--3 {
+    border: 2px solid black;
+    background: lightyellow;
+    grid-column: 4/4;
+}
